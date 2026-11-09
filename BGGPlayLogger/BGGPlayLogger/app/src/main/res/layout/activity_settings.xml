@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/SectionTitle"
+            android:layout_marginTop="0dp"
+            android:text="@string/settings_claude" />
+
+        <EditText
+            android:id="@+id/set_api_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/api_key_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/link_console"
+            style="@style/Link"
+            android:text="@string/api_key_help" />
+
+        <EditText
+            android:id="@+id/set_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/model_hint"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/settings_bgg" />
+
+        <EditText
+            android:id="@+id/set_bgg_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bgg_user_hint"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/set_bgg_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bgg_pass_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/set_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/default_location_hint"
+            android:importantForAutofill="no"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/set_bgg_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bgg_token_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/link_bgg_apps"
+            style="@style/Link"
+            android:text="@string/bgg_token_help" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/privacy_note"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/save" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Journal BGG</string>
+    <string name="settings">Paramètres</string>
+    <string name="my_games">Mes jeux</string>
+
+    <!-- Écran principal -->
+    <string name="intro">Prends une photo du jeu sur la table. Claude le reconnaît, le trouve sur BoardGameGeek et remplit la partie. Vérifie les joueurs et les pointages, puis enregistre.</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="choose_photo">Galerie</string>
+    <string name="photo">Photo du jeu</string>
+    <string name="section_game">Jeu</string>
+    <string name="game_name_hint">Nom du jeu</string>
+    <string name="search_bgg">Chercher</string>
+    <string name="change">Choisir</string>
+    <string name="bgg_none">Aucun jeu BGG choisi</string>
+    <string name="bgg_selected">BGG : %1$s</string>
+    <string name="bgg_no_match">Aucun résultat sur BGG. Corrige le nom et touche Chercher.</string>
+    <string name="section_play">Partie</string>
+    <string name="date_hint">Date (AAAA-MM-JJ)</string>
+    <string name="location_hint">Lieu</string>
+    <string name="minutes_hint">Durée (minutes)</string>
+    <string name="comments_hint">Commentaires</string>
+    <string name="section_players">Joueurs</string>
+    <string name="add_player">+ Ajouter un joueur</string>
+    <string name="player_name_hint">Nom</string>
+    <string name="score_hint">Points</string>
+    <string name="win">Gagné</string>
+    <string name="remove">Retirer le joueur</string>
+    <string name="log_play">Enregistrer sur BGG</string>
+
+    <string name="reading_photo">Claude analyse la photo…</string>
+    <string name="searching_bgg">Recherche sur BoardGameGeek…</string>
+    <string name="logging">Enregistrement de la partie sur BGG…</string>
+    <string name="identified">Identifié : %1$s (confiance : %2$s)</string>
+    <string name="expansions_seen">Extensions vues : %1$s</string>
+    <string name="logged">Partie enregistrée sur BGG (n° %1$s)</string>
+    <string name="view_game">Voir le jeu</string>
+    <string name="error_prefix">Erreur : %1$s</string>
+    <string name="need_key">Ajoute d\'abord ta clé API Anthropic dans les Paramètres.</string>
+    <string name="need_bgg">Ajoute d\'abord ton nom d\'utilisateur et ton mot de passe BGG dans les Paramètres.</string>
+    <string name="need_game">Choisis d\'abord le jeu BGG.</string>
+    <string name="bad_date">La date doit ressembler à 2026-11-09.</string>
+    <string name="no_camera">Aucune application d\'appareil photo trouvée.</string>
+    <string name="pick_game">Quel jeu est-ce?</string>
+    <string name="saved">Enregistré</string>
+
+    <!-- Mes jeux -->
+    <string name="sync">Synchro</string>
+    <string name="sync_history">Récupération de tes parties sur BGG…</string>
+    <string name="sync_covers">Récupération des couvertures et thèmes de %1$d jeux…</string>
+    <string name="sync_partial">Parties enregistrées sur ce téléphone seulement. Échec de la synchro BGG : %1$s</string>
+    <string name="all_themes">Tous les thèmes (%1$d jeux)</string>
+    <string name="no_theme">Sans thème (%1$d)</string>
+    <string name="games_summary">%1$d jeux, %2$d parties</string>
+    <string name="games_empty">Aucune partie pour l\'instant. Enregistre une partie ou touche Synchro pour récupérer ton historique BGG.</string>
+    <string name="theme_label">Thème</string>
+    <string name="cover">Couverture du jeu</string>
+    <plurals name="plays_count">
+        <item quantity="one">%1$d partie · dernière le %2$s</item>
+        <item quantity="other">%1$d parties · dernière le %2$s</item>
+    </plurals>
+
+    <!-- Fiche du jeu -->
+    <string name="open_bgg">Ouvrir sur BoardGameGeek</string>
+    <string name="fact_players">%1$s joueurs</string>
+    <string name="fact_time">%1$s min</string>
+    <string name="fact_rating">Note %1$s</string>
+    <string name="fact_weight">Complexité %1$s/5</string>
+    <string name="label_themes">Thèmes :</string>
+    <string name="label_mechanics">Mécaniques :</string>
+    <string name="label_designers">Auteurs :</string>
+    <plurals name="my_plays">
+        <item quantity="one">Tu y as joué %1$d fois : %2$s</item>
+        <item quantity="other">Tu y as joué %1$d fois : %2$s</item>
+    </plurals>
+
+    <!-- Paramètres -->
+    <string name="settings_claude">Claude (lit la photo)</string>
+    <string name="api_key_hint">Clé API Anthropic (sk-ant-…)</string>
+    <string name="api_key_help">Obtiens une clé sur console.anthropic.com → API keys. Chaque photo coûte environ un cent. Touche ici pour l\'ouvrir.</string>
+    <string name="model_hint">Modèle</string>
+    <string name="settings_bgg">BoardGameGeek</string>
+    <string name="bgg_user_hint">Nom d\'utilisateur BGG</string>
+    <string name="bgg_pass_hint">Mot de passe BGG</string>
+    <string name="default_location_hint">Lieu par défaut (ex. Maison)</string>
+    <string name="bgg_token_hint">Jeton d\'application BGG (pour Mes jeux)</string>
+    <string name="bgg_token_help">BGG exige un jeton d\'application gratuit pour lire ton historique et les fiches des jeux. Touche ici pour enregistrer une application sur BGG, puis colle son jeton ci-dessus.</string>
+    <string name="privacy_note">Tout est conservé seulement sur ce téléphone. Les photos sont envoyées à Anthropic pour être lues; ton identifiant BGG est envoyé seulement à boardgamegeek.com.</string>
+    <string name="save">Enregistrer</string>
+</resources>

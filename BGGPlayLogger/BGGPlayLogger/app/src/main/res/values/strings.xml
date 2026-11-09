@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BGG Play Logger</string>
+    <string name="settings">Settings</string>
+    <string name="my_games">My games</string>
+
+    <!-- Main screen -->
+    <string name="intro">Take a picture of the game on the table. Claude identifies it, finds it on BoardGameGeek and fills in the play. Check the players and scores, then log it.</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_photo">From gallery</string>
+    <string name="photo">Game photo</string>
+    <string name="section_game">Game</string>
+    <string name="game_name_hint">Game name</string>
+    <string name="search_bgg">Search BGG</string>
+    <string name="change">Choose</string>
+    <string name="bgg_none">No BGG game selected yet</string>
+    <string name="bgg_selected">BGG: %1$s</string>
+    <string name="bgg_no_match">No match on BGG. Fix the name and tap Search BGG.</string>
+    <string name="section_play">Play</string>
+    <string name="date_hint">Date (YYYY-MM-DD)</string>
+    <string name="location_hint">Location</string>
+    <string name="minutes_hint">Length (minutes)</string>
+    <string name="comments_hint">Comments</string>
+    <string name="section_players">Players</string>
+    <string name="add_player">+ Add player</string>
+    <string name="player_name_hint">Name</string>
+    <string name="score_hint">Score</string>
+    <string name="win">Win</string>
+    <string name="remove">Remove player</string>
+    <string name="log_play">Log play on BGG</string>
+
+    <string name="reading_photo">Claude is looking at the photo…</string>
+    <string name="searching_bgg">Searching BoardGameGeek…</string>
+    <string name="logging">Logging the play on BGG…</string>
+    <string name="identified">Identified: %1$s (confidence: %2$s)</string>
+    <string name="expansions_seen">Expansions seen: %1$s</string>
+    <string name="logged">Play logged on BGG (play #%1$s)</string>
+    <string name="view_game">View game</string>
+    <string name="error_prefix">Error: %1$s</string>
+    <string name="need_key">Add your Anthropic API key in Settings first.</string>
+    <string name="need_bgg">Add your BGG username and password in Settings first.</string>
+    <string name="need_game">Choose the BGG game first.</string>
+    <string name="bad_date">Date must look like 2026-11-09.</string>
+    <string name="no_camera">No camera app found.</string>
+    <string name="pick_game">Which game is it?</string>
+    <string name="saved">Saved</string>
+
+    <!-- My games -->
+    <string name="sync">Sync</string>
+    <string name="sync_history">Getting your plays from BGG…</string>
+    <string name="sync_covers">Getting covers and themes for %1$d games…</string>
+    <string name="sync_partial">Showing plays saved on this phone. BGG sync failed: %1$s</string>
+    <string name="all_themes">All themes (%1$d games)</string>
+    <string name="no_theme">No theme listed (%1$d)</string>
+    <string name="games_summary">%1$d games, %2$d plays</string>
+    <string name="games_empty">No plays yet. Log a play, or tap Sync to get your history from BGG.</string>
+    <string name="theme_label">Theme</string>
+    <string name="cover">Game cover</string>
+    <plurals name="plays_count">
+        <item quantity="one">%1$d play · last %2$s</item>
+        <item quantity="other">%1$d plays · last %2$s</item>
+    </plurals>
+
+    <!-- Game detail -->
+    <string name="open_bgg">Open on BoardGameGeek</string>
+    <string name="fact_players">%1$s players</string>
+    <string name="fact_time">%1$s min</string>
+    <string name="fact_rating">Rating %1$s</string>
+    <string name="fact_weight">Weight %1$s/5</string>
+    <string name="label_themes">Themes:</string>
+    <string name="label_mechanics">Mechanics:</string>
+    <string name="label_designers">Designers:</string>
+    <plurals name="my_plays">
+        <item quantity="one">You played it %1$d time: %2$s</item>
+        <item quantity="other">You played it %1$d times: %2$s</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings_claude">Claude (reads the photo)</string>
+    <string name="api_key_hint">Anthropic API key (sk-ant-…)</string>
+    <string name="api_key_help">Get a key at console.anthropic.com → API keys. Each photo costs about a cent. Tap here to open it.</string>
+    <string name="model_hint">Model</string>
+    <string name="settings_bgg">BoardGameGeek</string>
+    <string name="bgg_user_hint">BGG username</string>
+    <string name="bgg_pass_hint">BGG password</string>
+    <string name="default_location_hint">Default location (e.g. Home)</string>
+    <string name="bgg_token_hint">BGG app token (for My games)</string>
+    <string name="bgg_token_help">BGG requires a free app token to read your play history and game details. Tap here to register an application on BGG, then paste its token above.</string>
+    <string name="privacy_note">Everything is stored only on this phone. Photos are sent to Anthropic to be read; your BGG login is sent only to boardgamegeek.com.</string>
+    <string name="save">Save</string>
+</resources>

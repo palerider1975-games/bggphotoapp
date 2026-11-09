@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/player_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/player_name_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textCapWords" />
+
+    <EditText
+        android:id="@+id/player_score"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/score_hint"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/player_win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/win" />
+
+    <ImageButton
+        android:id="@+id/player_remove"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/remove"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+</LinearLayout>
